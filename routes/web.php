@@ -8,11 +8,9 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/notasRemetente/{nome_remetente}', [NotasRemetenteController::class, 'groupNotesBySender']);
-Route::get('/notasRemetente/{nome_remetente}/calculateTotals', [NotasRemetenteController::class, 'calculateTotals']);
-Route::get('/notasRemetente/{nome_remetente}/calculateDelivered', [NotasRemetenteController::class, 'calculateDelivered']);
-Route::get('/notasRemetente/{nome_remetente}/calculateNotDelivered', [NotasRemetenteController::class, 'calculateNotDelivered']);
-Route::get('/notasRemetente/{nome_remetente}/calculateDelay', [NotasRemetenteController::class, 'calculateDelay']);
+use App\Http\Controllers\UrlShortenerController;
+
+Route::get('/urls', [UrlShortenerController::class, 'index']);
 
 Route::get('/', function () {
     return response()->json([
