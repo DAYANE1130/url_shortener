@@ -1,18 +1,21 @@
+
+
 <?php
 
+use App\Http\Controllers\Api\NotasRemetenteController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+
+
+Route::get('/notasRemetente/{nome_remetente}', [NotasRemetenteController::class, 'groupNotesBySender']);
+Route::get('/notasRemetente/{nome_remetente}/calculateTotals', [NotasRemetenteController::class, 'calculateTotals']);
+Route::get('/notasRemetente/{nome_remetente}/calculateDelivered', [NotasRemetenteController::class, 'calculateDelivered']);
+Route::get('/notasRemetente/{nome_remetente}/calculateNotDelivered', [NotasRemetenteController::class, 'calculateNotDelivered']);
+Route::get('/notasRemetente/{nome_remetente}/calculateDelay', [NotasRemetenteController::class, 'calculateDelay']);
 
 Route::get('/', function () {
-    return view('HELLO WOOORD');
+    return response()->json([
+        'success' => true
+    ]);
 });
