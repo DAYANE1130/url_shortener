@@ -2,7 +2,7 @@
 
 namespace App\Services;
 use Illuminate\Support\Facades\Http;
-
+use App\Models\Url;
 
 
 class UrlShortenerService 
@@ -20,6 +20,12 @@ class UrlShortenerService
         $responseData = $response->json();
 
         $shortenedUrl = $responseData['data']['url'];
+       
+        // salvando url curta e longa no banco de dados
+        $url = new Url;
+        $url-> long_url = $urlLong;
+        $url-> short_url = $shortenedUrl;
+        $url-> save();
 
         return  $shortenedUrl;
         
