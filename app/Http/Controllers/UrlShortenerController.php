@@ -10,7 +10,7 @@ class UrlShortenerController extends Controller
 {
     public function index()
     {
-        $urls = Url::select('id','long_url', 'short_url')->get();
+        $urls = Url::select('id','long_url', 'short_url')->get();; 
         return response()->json($urls);
     }
 
@@ -24,7 +24,7 @@ class UrlShortenerController extends Controller
     public function shortenUrl(Request $request)
     {
         $urlLong = $request->input('url');
-        
+
         $urlShort = $this->urlShortenerService->shortenerUrl($urlLong);
 
         return  $urlShort;
