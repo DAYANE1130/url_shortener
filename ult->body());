@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=3,minimum-scale=0.60,user-scalable=1" />
+<title>Free URL shortener and redirection service</title>
+<meta name="title" content="Free URL shortener and redirection service">
+<meta name="description" content="Free URL shortener service allowing anyone to take any existing URL and shorten it">
+<meta name="keywords" content="Free URL shortener and and redirection service,Free URL shortener service,URL redirection and forwarding service,You can custom your link,set expire date,short urls,url shortener free,new urls today,ulvis,ulvis net,ulvis.net,ulvi net">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ulvis.net">
+<meta property="og:title" content="Free URL shortener and redirection service">
+<meta property="og:description" content="Free URL shortener service allowing anyone to take any existing URL and shorten it">
+<meta property="og:image" content="https://ulvis.net/styles/shrinky/images/urlshortener.jpg">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://ulvis.net/">
+<meta property="twitter:title" content="Free URL shortener and redirection service">
+<meta property="twitter:description" content="Free URL shortener service allowing anyone to take any existing URL and shorten it">
+<meta property="twitter:image" content="https://ulvis.net/styles/shrinky/images/urlshortener.jpg">
+<link rel="canonical" href="https://ulvis.net" />
+<link rel="apple-touch-icon" href="https://ulvis.net/styles/shrinky/images/appleicon.png">
+<script type="application/ld+json">
+{
+  "@context": "http://www.schema.org",
+  "@type": "website",	
+  "name": "Free URL shortener and redirection service",
+  "url": "http://ulvis.net",
+  "image": "https://ulvis.net/styles/shrinky/images/urlshortener.jpg",
+  "description": "Free URL shortener service allowing anyone to take any existing URL and shorten it."
+}
+</script>
+<link rel="alternate" type="application/rss+xml" title="Latest Urls" href="https://ulvis.net/feed.rss" />
+<link rel="stylesheet" href="https://ulvis.net/styles/shrinky/stylesheets/basic.css">
+<link rel="stylesheet" href="https://ulvis.net/styles/shrinky/stylesheets/app.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="50b7d9cb4efef2bca9d5fdf0-text/javascript" /></script>
+<!--[if lt IE 9]>
+          <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+	<![endif]-->
+<link rel="shortcut icon" href="styles/shrinky/images/favicon.ico">
+<link rel="dns-fetch" href="https://googleapis.com">
+<link rel="dns-fetch" href="https://ajax.googleapis.com">
+<link rel="dns-fetch" href="https://cdnjs.cloudflare.com">
+<link rel="dns-fetch" href="https://googletagmanager.com">
+<link rel="dns-fetch" href="https://google-analytics.com">
+<link rel="dns-fetch" href="https://acceptable.a-ads.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="prefetch" href="https://ulvis.net/styles/shrinky/stylesheets/basic.css">
+<link rel="prefetch" href="https://ulvis.net/styles/shrinky/stylesheets/app.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDTYSLZ5FE" type="50b7d9cb4efef2bca9d5fdf0-text/javascript"></script>
+<script type="50b7d9cb4efef2bca9d5fdf0-text/javascript">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XDTYSLZ5FE');</script>
+<script type="50b7d9cb4efef2bca9d5fdf0-text/javascript">var jqOld=jQuery.noConflict();jqOld(function(){jqOld("#datepicker").datepicker();})</script>
+</head>
+<body>
+<p class="smallmenu"><a href="//ulvis.net/" class="arrow-center" id="myid" title="Go home!" data-tip="Go home!">Home</a><a href="#" id="custom_link" class="arrow-center" title="Want to use a custom url?">custom</a><a href="//ulvis.net/multishrink.html" class="arrow-center" id="myid1" title="Multiple urls? use MultiShrink!">Multi</a> <a href="//ulvis.net/browser/" class="arrow-center" id="myid2" title="What's my IP Address? What's my browser?">browser info</a><a href="//whois.ulvis.net/" class="arrow-center" id="myid3" title="Whois Lookup Domain &amp; IP address">Whois Lookup</a><a href="//paste.ulvis.net/" class="arrow-center" id="myid4" title="paste tool">pastebin</a><a href="//screenshot.ulvis.net/" class="arrow-center" id="myid5" title="Capture Website Screenshot from URL">Website Screenshot</a><a href="//chat.ulvis.net/" class="arrow-center" id="myid6" title="friendly disqus chatroom">chatroom</a><a href="//ulvis.net/disclaimer.html" target="_blank" class="arrow-center" id="myid7" title="Read our disclaimer!">Disclaimer</a><a href="//ulvis.net/privacy.html" target="_blank" class="arrow-center" id="myid8" title="Read our privacy!">Privacy</a><a href="//ulvis.net/contact.html" class="arrow-center" id="myid9" title="Want to contact us or to report a link?">Contact</a><a href="//ulvis.net/developer.html" target="_blank" class="arrow-center" id="myid10" title="Hi Developer, use our API!">API</a></p>
+<div id="wrapper">
+<header>
+<div id="logo">
+<p><h1>Free URL shortener (URL redirection and forwarding service) allowing anyone to take any existing URL and shorten it</h1>
+<h2>Just type/paste a URL in the box below to shorten it and the short URL will forward to the long one.</h2>
+<h3>You can custom your link -set expire date,make it public or private and choose desired name.</h3></p>
+</div>
+<div id="main" role="main">
+<div id="info"><p style="display:none;"><b></b></p></div>
+<form action="https://ulvis.net/API/write/post" method="post" id="mainform" aria-label="post" autocomplete="off">
+<div id="qrCode">
+<div class="qrTooltip" style="display:none;"></div>
+</div>
+<input type="text" id="url" name="url" value aria-label="url" placeholder="http://" />
+<input type="submit" id="submit" class="button submit normal" value="shrink" name="submit" aria-label="submit">
+<br/>
+<div id="options-wrapper" class="row">
+<ul id="options">
+<li></li>
+</ul>
+</div>
+<div id="tools">
+<input type="text" class="inputaData" id="password" name="password" maxlength="10" placeholder="password" aria-label="password" />
+<input type="tel" class="inputaData" id="uses" name="uses" placeholder="uses" pattern="[0-9]" aria-label="uses" />
+<input type="text" class="inputaData" id="expire" name="expire" placeholder="expire" readonly="readonly" aria-label="expire" />
+<input type="text" class="inputaData" id="custom" name="custom" maxlength="60" placeholder="optional custom name" aria-label="custom" />
+<span class="checkbox unchecked">
+<label>public</label>
+<input type="checkbox" name="private" id="private" value="private" aria-label="private" />
+</span>
+</form>
+</div>
+</div>
+</header>
+<footer>
+<div class="ads">
+<iframe data-aa="1120279" title="a-ads" src="//ad.a-ads.com/1120279?size=300x250" style="width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+</div>
+<div class="footertext">
+<p><b>WARNING:</b>Using this tool for spam or any other illegal activity is <b>STRICTLY PROHIBITED!</b>!</p>
+<p><h4>We have served 2474744 short urls and served 7509308 total clicks with 15 new urls today.</h4></p>
+<p>url shortener free - &#xA9; ulvis.net</p>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.9/datepicker.min.js" type="50b7d9cb4efef2bca9d5fdf0-text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="50b7d9cb4efef2bca9d5fdf0-text/javascript"></script>
+<script type="50b7d9cb4efef2bca9d5fdf0-text/javascript">window.jQuery||document.write('<script src="styles/shrinky/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="styles/shrinky/js/jquery.datepick.js" type="50b7d9cb4efef2bca9d5fdf0-text/javascript"></script>
+<script src="styles/shrinky/js/script.min.js" type="50b7d9cb4efef2bca9d5fdf0-text/javascript"></script>
+</div>
+</footer>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="50b7d9cb4efef2bca9d5fdf0-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"84a36e689ed50114","version":"2024.1.0","r":1,"token":"90bb9a306e744104af1d1cd99a0ce9de","b":1}' crossorigin="anonymous"></script>
+</body>
+</html>[90m⏎[39m
