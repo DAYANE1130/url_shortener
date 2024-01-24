@@ -17,16 +17,42 @@ class UrlShortenerController extends Controller
     protected $urlShortenerService;
 
     public function __construct(UrlShortenerService $urlShortenerService)
+    
     {
         $this->urlShortenerService = $urlShortenerService;
     }
 
     public function shortenUrl(Request $request)
+
     {
         $urlLong = $request->input('url');
+
+        $validationUrl = $this-> urlShortenerService-> validateUrl($urlLong);
+
+         if($validationUrl !== true) {
+         return response()->json(['error' => $validationUrl],400); 
+         }
 
         $urlShort = $this->urlShortenerService->shortenerUrl($urlLong);
 
         return  $urlShort;
     }
+
+    public function redirectToLongUrl($urlCurta)
+
+  
+
+   {
+      
+    try {
+
+        $longUrl = $this->urlShortenerService->getLongUrl($urlCurta);
+
+        return redirect($longUrl);
+
+    } catch (\Exception $e) {
+        abort(404);
+    }
+  }
+
 }
