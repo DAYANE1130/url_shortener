@@ -40,9 +40,9 @@ Lembre-se de que o arquivo `.env` não deve ser incluído no controle de versão
 A documentação da API pode ser acessada no seguinte link: https://documenter.getpostman.com/view/31041446/2s9YypE2wV
 
 ## Possíveis melhorias de código
-Implementar verificações de validação adicionais para dados de entrada.
-Aprimoran o tratamento de erros e mecanismos de feedback para uma melhor experiência do usuário.
-Otimizando consultas e desempenho do banco de dados.
+1. Implementar verificações de validação adicionais para dados de entrada.
+2. Aprimorar o tratamento de erros e mecanismos de feedback para uma melhor experiência do usuário.
+3. Otimizando consultas e desempenho do banco de dados.
 
 
 
