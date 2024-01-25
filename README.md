@@ -5,7 +5,8 @@ O sistema encurtador de URL foi projetado para permitir que os usuários encurte
 ## Tecnologias Utilizadas
 
 - **Back-end**: Laravel
-- **Interface**: Vue.js
+- **Interface**: Vue.js -em desenvolvimento
+
 
 ## Configurando o servidor back-end (Laravel)
 
@@ -16,9 +17,6 @@ O sistema encurtador de URL foi projetado para permitir que os usuários encurte
 5. Migre o banco de dados usando `php artisan migrate`.
 6. Inicie o servidor de desenvolvimento executando `php artisan serve`.
 
-## Clonando o Repositório
-
-Para clonar o repositório, use o seguinte comando:
 
 
 ## Documentação da API
