@@ -32,7 +32,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 Por favor, substitua root e password com suas credenciais de banco de dados.
 
-
+```
 Lembre-se de que o arquivo `.env` não deve ser incluído no controle de versão, portanto, certifique-se de que ele esteja listado no arquivo `.gitignore`.
 
 
