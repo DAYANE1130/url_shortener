@@ -13,21 +13,27 @@ O sistema encurtador de URL foi projetado para permitir que os usuários encurte
 1. Clone o repositório do link fornecido: git clone https://github.com/DAYANE1130/url_shortener.git
 2. Navegue até o diretório do projeto e execute `composer install` para instalar as dependências do projeto.
 3. Crie uma cópia do `.env.example` arquivo e renomeie-o para `.env`. Atualize a configuração do banco de dados no `.env` arquivo.
-4. Configure suas variaveis de ambiente . por exemplo :
-   
-   
-* DB_CONNECTION=mysql
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=url
-DB_USERNAME=root
-DB_PASSWORD= 2222´
-
-6. Execute `php artisan key:generate` para gerar a chave do aplicativo.
+4. Configure suas variaveis de ambiente conforme explicado em "Configuração das Variáveis de Ambiente"
+5.  Execute `php artisan key:generate` para gerar a chave do aplicativo.
 7. Migre o banco de dados usando `php artisan migrate`.
 8. Inicie o servidor de desenvolvimento executando `php artisan serve`.
 9. Acesse as rotas da  Api pelo navegador através do endereço http://127.0.0.1:8000
 
+## Configuração das Variáveis de Ambiente
+
+Crie um arquivo `.env` na raiz do projeto e configure suas variáveis de ambiente. Aqui está um exemplo de como configurar o banco de dados:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=url
+DB_USERNAME=root
+DB_PASSWORD=
+Por favor, substitua root e password com suas credenciais de banco de dados.
+
+
+Lembre-se de que o arquivo `.env` não deve ser incluído no controle de versão, portanto, certifique-se de que ele esteja listado no arquivo `.gitignore`.
 
 
 ## Documentação da API
