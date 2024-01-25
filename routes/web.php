@@ -13,9 +13,7 @@ Route::get('/{urlCurta}', [UrlShortenerController::class, 'redirectToLongUrl']);
 
 
 
-
 Route::get('/', function () {
-    return response()->json([
-        'success' => true
-    ]);
+    return view('welcome');
 });
+
